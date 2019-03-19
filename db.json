@@ -1,0 +1,26 @@
+{
+  "students": [
+    {"id":1, "name": "Saad Majid", "regNo":"L1F15BSCS0332", "phone":"03238804502", "email":"saad.majid@ucp.edu.pk"},
+    {"id":2, "name": "Saad Javed", "regNo":"L1F15BSCS0323", "phone":"03205454558", "email":"saadjaved@ucp.edu.pk"},
+    {"id":3, "name": "Soban Javed", "regNo":"L1F15BSCS0324", "phone":"03334504341", "email":"sobanjaved@ucp.edu.pk"},
+    {"id":4, "name": "Rashid Ali", "regNo":"L1F15BSCS0349", "phone":"03354182814", "email":"rashid_ali@ucp.edu.pk"}
+  ],
+  "courses":[
+    {"id":1, "title":"Data Structures", "creditHrs": 4, "sections":4, "teacher": "Saeed Iqbal"},
+    {"id":2, "title":"Introduction to Machine Learning", "creditHrs": 3, "sections":1, "teacher": "Dr. Adnan Qureshi"},
+    {"id":3, "title":"Programming Fundamentals", "creditHrs": 4, "sections":4, "teacher": "Shafiq-ur-Rehman"}
+  ],
+  "course_students":[
+    {"courseId":1, "studentId":1},
+    {"courseId":1, "studentId":2},
+    {"courseId":1, "studentId":3},
+    {"courseId":2, "studentId":3},
+    {"courseId":2, "studentId":4},
+    {"courseId":2, "studentId":1},
+    {"courseId":3, "studentId":1},
+    {"courseId":3, "studentId":2},
+    {"courseId":3, "studentId":3},
+    {"courseId":3, "studentId":4},
+  ]
+
+}
